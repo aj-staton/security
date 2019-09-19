@@ -1,42 +1,37 @@
 '''
 Written by Austin Staton
-This will carve an image from a file that is in the same directory as this python script. 
--To specify the file, give it as the first command line argument after the
- execution argument
-'''
 
+"jpeg_carve.py" will carve a JPEG image from a file. This is meant to be used as an introduction to the concept of File Carving for Data Recovery. 
+
+To specify the file, give it as the first command line argument after the
+execution argument.
+'''
 import os
 import sys
 import re
 import commands
+# JPG 
+jpg_BOF = "fd8ffe0"
+jpg_EOF = "ffd9"
 
-jpg_begin = "fd8ffe0"
-jpg_end = "ffd9"
-
-# Get the file name
+# Get the file name from the command line input.
 filename = sys.argv[1]
 print("Finding the JPG in the file " + filename + ".....\n")
 
-# Get a hex dump of file and put it into a string
+# Get a hex dump of the input file and put those bits into a string
 hexdump = commands.getoutput("xxd -plain " + filename)
 dump_file = hexdump.replace('\n', '')
-print(hexdump)
+# print(hexdump)
 
-# Search for Magic Numbers
-if (jpg_begin in dump_file and jpg_end in dump_file):
-    dump_file.replace(jpg_begin, " " + jpg_begin)
-    dump_file.replace(jpg_end, jpg_end + " ")
+# Search for the '*.jpeg' file's "magic numbers" in the bit string. 
+if (jpg_BOF in dump_file and jpg_EOF in dump_file):
+    dump_file.replace(jpg_BOF, " " + jpg_BOF)
+    dump_file.replace(jpg_EOF, jpg_EOF + " ")
     split = dump_file.split()
-    # for i in split:
-       # if (jpg_begin in i and jpg_end in i):
-        #    print(i)
-"""
-
-
-# Copy that new chunk of data to another file (as a jpg)
-#with open("image.jpg", "w+") as f:
-    #f.write(jpg_full_file)
-    #%f.close()
-
-
-#read = open(sys.argv[1], 'rb')
+    #TODO:Place the found string into its own file.
+'''
+with open("image.jpg", "w+") as f:
+    f.write(jpg_full_file)
+    f.close()
+read = open(sys.argv[1], 'rb')
+'''
