@@ -1,0 +1,17 @@
+
+Scalpel version 1.60 audit file
+Started at Wed Apr  3 17:50:16 2019
+Command line:
+scalpel find_the_jpg.doc -o output 
+
+Output directory: /home/ajstaton/Projects/carve/output
+Configuration file: /etc/scalpel/scalpel.conf
+
+Opening target "(null)"
+
+The following files were carved:
+File		  Start			Chop		Length		Extracted From
+00000000.jpg         8768		NO            26209		find_the_jpg.doc
+
+
+Completed at Wed Apr  3 17:50:16 2019
