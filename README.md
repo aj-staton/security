@@ -10,5 +10,5 @@ It's no secret that Cybersecurity is a trending subject. The subject has always 
 
 
 ## Bro
-* I attended a workshop on the [Bro IDS](https://www.bro.org) at B-Sides Charelston in 2018. The workshop materials were given by Andrew Beard.
+* I attended a workshop on the [Bro IDS](https://www.bro.org) at B-Sides Charelston in 2018. All workshop materials were given by Andrew Beard.
 
