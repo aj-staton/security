@@ -12,3 +12,10 @@ It's no secret that Cybersecurity is a trending subject. The subject has always 
 ## Bro
 * I attended a workshop on the [Bro IDS](https://www.bro.org) at B-Sides Charelston in 2018. All workshop materials were given by Andrew Beard.
 
+## Port Scanning
+* In early 2019, I attended a workshop for Network Penetration Testing. This workshop was presented by Barrett Adams and Chris Myers from [Ubeeri](https://www.ubeeri.com/). 
+
+The workshop allowed the attendees to fully exploit a simulated vulnerability in an Apache Tomcat web server. The following steps were taken:
+1. Performed reconnaisance by scanning ports the ports of common services on the servers.
+2. Used [Metasploit's](https://www.metasploit.com/) auxillary module to check services for default credentials and establish a foothold in the web server.
+3. Used [Empire](https://github.com/EmpireProject/Empire) (now unsupported) as a command and control (C2) framework. It helped to deploy HTTP listeners and a Powershell launcher. 
