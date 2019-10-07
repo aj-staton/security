@@ -9,7 +9,7 @@ I am a member of the [UofSC's Cybersecurity Club](https://usccyber.org). Here I 
 * I presented to the UofSC Cybersecurity club on April 11th, 2019 about the File Carving data recovery technique. Carving a JPG image from a word document is elementary in comparison to mass data recovery for investigations. This presentation was not created for this purpuse though; rather, I wanted to demonstrate the concept of [Magic Numbers](https://asecuritysite.com/forensics/magic) and file formats for data recovery. 
 
 #### Kali Linux
-* On October 8th, 2019, I presented to the UofSC Army ROTC's Cyber cadets. I met with the group's XO to discuss the presentation, then decided to deliver information on the [Kali Linux](kali.org) operataing system. This operating system comes with toolkits for post-exploitation, network mapping and reconaissance, digital forensics, packet sniffing, and more cybersecurity-related needs. I wanted the Army Cyber cadets to have an awareness of why this operating system is important and how it can be used.
+* On October 8th, 2019, I presented to the UofSC Army ROTC's Cyber cadets. I met with the Cyber XO to discuss the presentation, then decided to deliver information on the [Kali Linux](kali.org) operataing system. This operating system comes with toolkits for post-exploitation, network mapping and reconaissance, digital forensics, packet sniffing, and more cybersecurity-related needs. I wanted the Army Cyber cadets to have an awareness of why this operating system is important and how it can be used.
 
 
 ## Bro
