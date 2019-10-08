@@ -1,0 +1,18 @@
+
+Scalpel version 1.60 audit file
+Started at Tue Oct  8 14:08:53 2019
+Command line:
+scalpel find_the_jpg.doc 
+
+Output directory: /home/ajstaton/Projects/git/security/Presentations/kali/datarecovery/scalpel-output
+Configuration file: /etc/scalpel/scalpel.conf
+
+Opening target "(null)"
+
+The following files were carved:
+File		  Start			Chop		Length		Extracted From
+00000001.doc            0		YES           36353		find_the_jpg.doc
+00000000.doc            0		NO            36353		find_the_jpg.doc
+
+
+Completed at Tue Oct  8 14:08:53 2019
