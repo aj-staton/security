@@ -1,0 +1,30 @@
+/******************************************************************
+** This command uses the nmap command to find open ports on a 
+** specified IP range. 
+**
+** A "-timing <1-5>" option will speed up or slow down the port 
+** scan. 5 is fast end, slow is low.
+*******************************************************************
+*/
+
+nmap -sS -p 80,443,8080 --open --script http-title --script-args 'http.useragent="Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko"' 10.10.2-6.0-254
+
+// This works nearly the same. The "-timing" option described
+// above was added.
+nmap -sS -p 80,443,8080 --open --script http-title --script-args -timing 5 10.10.2-6.0-254
+
+/******************************************************************
+** This is a database scanning command with options that scan
+** common mySQL ports. Looks for common vulnerabilities.
+******************************************************************* 
+*/
+
+nmap -sS -p 1433,3306 --open --script ms-sql-info,ms-sql-empty-password,mysql-info,mysql-empty-password 10.10.2-6.0-256
+
+/******************************************************************
+** This is an namp scan for FTP, SSH, and Telnet ports. It will
+** check for anonymous FTP access.
+*******************************************************************
+*/
+
+nmap -sS -p 21,22,23 --open --script ftp-anon,banner 10.10.2-6.0-254
