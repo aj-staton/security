@@ -18,7 +18,7 @@ In Venmo's privacy policy, when you import your contacts, it allows Venmo to cre
 Meaning, if a person with a lesser online footprint, or _no_ online footprint is in the contact list, they will be tied to the public friends of the user. 
 
 Expanding on your OSINT:
-* When you link accounts to facebook (as you can with Venmo), you are given a uniqure account identifier for the various accounts ties to your facaebook.com social account. This identifier can be used to link you to all of the other accounts that you have connected to Facebook.
+* When you link accounts to facebook (as you can with Venmo), you are given a unique account identifier for the various accounts ties to your facaebook.com social account. This identifier can be used to link you to all of the other accounts that you have connected to Facebook.
 
 ## Credits
 * This presentation was given by Michael Portera on November 9th, 2019 at B-Sides Charleston.
