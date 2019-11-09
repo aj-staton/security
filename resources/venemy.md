@@ -23,4 +23,4 @@ Expanding on your OSINT:
 ## Credits
 * This presentation was given by Michael Portera on November 9th, 2019 at B-Sides Charleston.
 * Recommendation from the speaker: do the TraceLabs MissingPersonsCTF, where flags are given for information on missing people.
-* [SRC Repo] (https://github.com/mportatoes/venemy)
+* [SRC Repo](https://github.com/mportatoes/venemy)
